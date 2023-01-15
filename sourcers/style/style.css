@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    text-align: justify;
+    color: rgb(5, 5, 5);
+}
+
+header{
+    display: flex;
+    background-image: linear-gradient( to right, rgba(173, 213, 237, 0.879) 10%, rgb(92, 183, 224) 20% );
+    height: 100px;
+    border-bottom: 3px solid ;
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+header img{
+    width: 123px;
+}
+
+#logo {
+    width: 123px;
+}
+
+header div#nome{
+    padding-left: 100px;
+}
+
+header div {
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+nav a {
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+nav {
+    background-image: linear-gradient( to right, rgba(173, 213, 237, 0.879) 10%, rgb(92, 183, 224) 20% );
+    font-size: large;
+    font-style: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 200px;
+    height: 25px;
+    margin: 5px;
+    margin-top: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:link:active {
+    color: blueviolet;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    background-image: linear-gradient(-230deg,rgba(173, 213, 237, 0.879) 20%, rgb(92, 183, 224) 30% );
+    height: 900px;
+}
+
+aside {
+    width: 180px;
+    padding-top: 65px;
+    margin: 2px;
+    height: 800px;
+    text-align: center;
+}
+
+aside ul{
+    text-align: left;
+    list-style-type: none;
+    margin: 10px;
+    border-right: 2px solid black;
+}
+
+aside ul li{
+    padding-top: 5px;
+    margin-top: 3px;
+}
+
+main {
+    width: 1155px;
+    margin: 2px;
+    padding: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 5px;
+}
+
+article {
+    margin-left: 10px;
+    color: rgb(14, 15, 15);
+}
+
+
+section#texts{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+
+p {
+    margin: 5px;
+    padding: 5px;
+}
+
+div#fotos  {
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    grid-gap: 20px; 
+}
+
+div.imagen{
+    display: flex;
+    flex-direction: column;
+}
+
+div#mar{
+    margin-left: 55px;
+}
+
+div.imagens img {
+    border: 2px solid darkblue;
+    border-radius: 35px;
+    margin: 5px;
+    width: 300px;
+    height: 250px;
+    grid-gap: 10px;
+}
+
+table {
+   background-color: rgba(71, 82, 129, 0.456);
+   text-align: center;
+}   
+
+table th {
+    width: 300px;
+   font-style: bold;
+   text-transform: uppercase;
+}
+
+tfoot td{
+    background-color: rgba(240, 255, 255, 0.213);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-align: center;
+    text-transform:uppercase;
+    color: red;
+}
+
+tr:nth-child(even){
+    background-color: rgb(112, 148, 207);
+}
+
+.contact {
+    margin: 5px;
+    display: inline-block;
+    flex-direction: column;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+fieldset {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-image: linear-gradient( to right, rgba(173, 213, 237, 0.879) 60%, rgb(92, 183, 224) 70% );
+}
